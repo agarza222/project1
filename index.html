@@ -11,26 +11,30 @@
 	p{
 		color:salmon;
 	}
-	.floatRight{
-		float:right;
+	.floatLeft{
+		float:left;
 		width:250px;
 		background-color:#9A0BC8;
+		border: 2px solid pink;
 	}
-	footer{
-		clear:both;
-	}
-	#main{
-		margin-left: 20px;
+	.floatRight{
+		float:right;
+		width:500px;
 		background-color:antiquewhite;
 		padding-left: 20px;
 	}
+	footer{
+		clear:both;
+	
+	}
+	
 </style>
 </head>
 <!-- COMMENT-->
 <body style="background-color:slategrey;"> 
 	<div id="container">
 	<header><h1 style="color:darkgreen"> Hello World </h1></header>
-	<nav class="floatRight"><p>This is my navigation space</p></nav>
+	<nav class="floatleft"><p>This is my navigation space</p></nav>
 	<main id="main" class="floatRight">
 		<img src="Images/roses.png" style="width:300px" alt="Roses"/>
 		<img src="Images/sunflower.png" style="width:100px" alt="Sunflower"/>
